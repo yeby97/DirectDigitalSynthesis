@@ -1,6 +1,6 @@
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 // + AUTHOR      : Guido Trensch, 2012
-// + FILE        : main.c
+// + FILE        : mainFuncgen.c
 // + DESCRIPTION : Function Generator Main Entry Module
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 
