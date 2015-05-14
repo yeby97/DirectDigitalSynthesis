@@ -41,7 +41,7 @@
 ; |        PhASize * DDSCycl                PhASize ... size of the phase accumulator                             |
 ; |  Fi = ------------------- * f[Hz]       DDSCycl ... the DDS loop machine cycles                               |
 ; |             CLK[Hz]                     CLK     ... processor clock speed                                     |
-; |                                         Fi      ... frequncy increment                                        |
+; |                                         Fi      ... frequency increment                                       |
 ; |                                                                                                               |
 ; |                                                                                                               |
 ; |  Calculation of the frequency (f) for a given increment (Fi):                                                 |
