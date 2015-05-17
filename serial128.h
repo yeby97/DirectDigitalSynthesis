@@ -1,7 +1,7 @@
 #ifndef SERIAL_H_
 #define SERIAL_H_
 // + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
-// + AUTHOR      : Guido Trensch 2012
+// + AUTHOR      : Guido Trensch, 2012
 // + FILE        : serial128.h
 // + DESCRIPTION : serial128.asm C-interface wrapper
 // +
