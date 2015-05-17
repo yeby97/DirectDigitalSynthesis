@@ -225,7 +225,7 @@ int main()
              , (_PTR_FUNC_)CallBack_EncRightRotate );
 
   Debug( " ... Init Display" );
-  Debug( " ... FuncGen Vers 3.0" );
+  Debug( " ... FuncGen Vers 1.0" );
 
   InitLCD();
   LCD( "FuncGen ", "Vers 1.0" );
@@ -701,7 +701,7 @@ void MenuFctERXS_ASawtooth()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 void MenuFctERXS_DSine()
 {
-  Debug( " ... enuFctERXS_DSine" );
+  Debug( " ... MenuFctERXS_DSine" );
   ddsWaveForm = DDS_SINE;
   SetFGenProperties();
   return;
