@@ -52,7 +52,7 @@ volatile uint32_t       glob_ddsFrequency     = 0;
   glob_ddsControl   = DDS_STOP;       \
   ASM_Init_DDS();                     \
 }
-// Note: The calculation "Y*10906)/1000" minimizes errors above 1000Hz. Refer also to dds.S.
+// Note: The calculation "Y*10906)/1000" minimizes errors above 1000Hz. Refer also to dds.asm.
 //       Below this the frequency won't be exact due to the rounding error.
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

@@ -49,10 +49,6 @@ ASM_InitEncoder:     PUSH       R16                               ; save registe
                      CBR        R16,EncB                          ; clear corresponding bit
                      OUT        EncABDDReg,R16                    ; configure lines for input 
 
-;                    IN         R16,EncSWDDReg                    ; read current configuration
-;                    CBR        R16,EncSW                         ; clear corresponding bit
-;                    OUT        EncSWDDReg,R16                    ; configure line for input 
-
                      LDI        R16,(1<<PCIE3) | (1<<PCIE1)       ; enable pin change interrupt 3 and 1 ..
                      STS        PCICR,R16                         ; PCINT31 -> PCIE3, PCINT8 -> PCIE1
                      LDI        R16,(1<<PCINT31)                  ; mask/enable pin PCINT31 (EncSW PD7)
