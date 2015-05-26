@@ -1,12 +1,12 @@
 ; + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 ; + AUTHOR      : Guido Trensch, 2012
 ; + FILE        : dds.asm
-; + DESCRIPTION : implements the direct digital synthesis routines
+; + DESCRIPTION : implements the dirct digital synthesis routines
 ; +
 ; +               Implements following functions:
 ; +
-; +               ASM_Init_DDS
-; +               ASM_ASM_Run_DDS
+; +               ASM_DDS
+; +               ASM_
 ; + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 
 ; +---------------------------------------------------------------------------------------------------------------+
